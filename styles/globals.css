@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "./map.css";
+
+@theme {
+  --color-primary: #3ba6b5;
+  --color-primary-hover: #63d3d6;
+  --color-secondary: #acb3bd;
+  --color-mask: #f2f5f9;
+
+  --font-libre-baskerville: "Libre Baskerville";
+  --font-gothamBook: "GothamBook";
+
+  --container-width: 1440px;
+
+  --text-xl: 21px;
+  --width-wrapper: 1200px;
+}
+
+@utility container {
+  max-width: var(--container-width);
+}

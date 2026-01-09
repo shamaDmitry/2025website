@@ -1,0 +1,61 @@
+.map-content-wrapper {
+  max-width: 100% !important;
+}
+.rsm-svg.map-wrapper {
+  max-width: 100% !important;
+}
+
+.us-map {
+  fill: #acb3bd;
+}
+
+.active-state {
+  fill: var(--color-primary);
+}
+
+.active-state:hover {
+  fill: var(--color-primary-hover);
+}
+
+.state-label {
+  pointer-events: none;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.nindo-card {
+  width: 205px;
+  pointer-events: none;
+  border-radius: 0 !important;
+  transform: translate(-50%, calc(-100% - 15px)) !important;
+}
+
+.nindo-card:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid black;
+}
+
+.nindo-card-body {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.nindo-card-title {
+  margin-bottom: 15px !important;
+}
+
+.nindo-card-description.card-description > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
